@@ -1,2 +1,6 @@
-# lsp-crystal.el
-Crystal support for lsp-mode using https://github.com/crystal-lang-tools/scry
+* lsp-crystal
+  :PROPERTIES:
+  :ID:       50cab881-5f6d-469f-8caa-5b7427a3cc9e
+  :END:
+
+  Crystal support for lsp-mode using the https://github.com/crystal-lang-tools/scry
