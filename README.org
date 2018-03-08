@@ -1,0 +1,2 @@
+# lsp-crystal.el
+Crystal support for lsp-mode using https://github.com/crystal-lang-tools/scry
