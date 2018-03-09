@@ -43,7 +43,6 @@
 (require 'lsp-mode)
 (require 'crystal-mode)
 
-;;;###autoload
 (lsp-define-stdio-client lsp-crystal "crystal"
                          #'crystal-find-project-root
                          '("scry"))
