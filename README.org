@@ -9,16 +9,17 @@
   :PROPERTIES:
   :ID:       220a2ba1-50a4-4d2a-833a-cf8916e6c260
   :END:
+ 
   First, install the [[https://github.com/crystal-lang-tools/scry][scry]].
 
   Second, install this repo and [[https://github.com/emacs-lsp/lsp-mode][lsp-mode]].
-  - From source ::
+    - From source ::
                    Clone this rep and [[https://github.com/emacs-lsp/lsp-mode][lsp-mode]] to suitable paths, and them to your load path:
                    #+BEGIN_SRC elisp
                      (add-to-list 'load-path "/path/to/lsp-mode")
                      (add-to-list 'load-path "/path/to/lsp-crystal")
                    #+END_SRC
-  - From MELPA ::
+    - From MELPA ::
                   TODO
 
   Finally, add the code below to your .emacs file:
